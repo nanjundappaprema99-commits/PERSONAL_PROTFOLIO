@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal Portfolio of Pragna S N - BCA Graduate & aspiring Software Developer specializing in Python, Web Development, Databases, and Machine Learning.">
+    <meta name="author" content="Pragna S N">
+    <title>Pragna S N | Software Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Home page">
+                <span class="logo-code">&lt;/&gt;</span> Pragna<span class="highlight"> S N</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i>
+                            Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+                    </li>
+                    <li class="nav-item"><a href="#education" class="nav-link"><i
+                                class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+                    </li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i>
+                            Projects</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-link"><i class="fa-solid fa-file-lines"></i>
+                            Resume</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i>
+                            Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <i class="fa-solid fa-bars icon-open"></i>
+                <i class="fa-solid fa-xmark icon-close"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- SECTION 1: HOME (HERO) -->
+        <section class="section hero" id="home">
+            <div class="hero-container container">
+                <div class="hero-content reveal">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Available for Software Developer Opportunities
+                    </div>
+                    <!-- REPLACE WITH YOUR NAME -->
+                    <h1 class="hero-title">Hi, I'm <span class="text-gradient">Pragna S N</span></h1>
+                    <h2 class="hero-subtitle">Software Developer</h2>
+                    <p class="hero-description">
+                        BCA Graduate passionate about crafting robust software solutions, high-performance web
+                        applications, and intelligent data systems using Python, JavaScript, and Machine Learning.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-eye"></i> View My Projects
+                        </a>
+                        <!-- RESUME DOWNLOAD LINK -->
+                        <a href="assets/Pragna S N.pdf" target="_blank" download="Pragna_S_N_Resume.pdf"
+                            class="btn btn-secondary">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/pragna-pragna13" target="_blank" rel="noopener noreferrer"
+                            class="social-icon" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/nanjundappaprema99-commits" target="_blank"
+                            rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:nanjundappaprema99@gmail.com" class="social-icon" aria-label="Email Me">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PROFILE PHOTO -->
+                <div class="hero-image-wrapper reveal">
+                    <div class="image-frame">
+                        <img src="assets/pragna sn.jpeg" alt="Pragna S N - Software Developer Profile Photo"
+                            class="profile-img" id="profile-photo">
+                    </div>
+                    <div class="tech-tag tag-python"><i class="fa-brands fa-python"></i> Python</div>
+                    <div class="tech-tag tag-web"><i class="fa-solid fa-code"></i> Full-Stack</div>
+                    <div class="tech-tag tag-ml"><i class="fa-solid fa-brain"></i> ML Enthusiast</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ABOUT ME -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <h3>BCA Graduate & Aspiring Developer</h3>
+                        <p class="about-text">
+                            Hello! I hold a <strong>Bachelor of Computer Applications (BCA)</strong> degree with a
+                            strong theoretical foundation and practical expertise in software development principles,
+                            data structures, algorithms, and object-oriented design.
+                        </p>
+                        <p class="about-text">
+                            I thrive on solving complex computational problems and building clean, efficient
+                            applications. My core technical interests span across <strong>Python development</strong>,
+                            <strong>modern web engineering (HTML, CSS, JS, PHP)</strong>, <strong>relational databases
+                                (MySQL)</strong>, and <strong>machine learning algorithms</strong>.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights reveal">
+                        <div class="highlight-box">
+                            <i class="fa-brands fa-python highlight-icon"></i>
+                            <h4>Python Development</h4>
+                            <p>Building automated scripts, data analysis pipelines, and ML models using Pandas, NumPy &
+                                Scikit-learn.</p>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="fa-solid fa-laptop-code highlight-icon"></i>
+                            <h4>Web Engineering</h4>
+                            <p>Crafting intuitive, responsive, and accessible front-end interfaces and server-side web
+                                scripts.</p>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="fa-solid fa-database highlight-icon"></i>
+                            <h4>Database Management</h4>
+                            <p>Designing structured relational schemas, writing optimized SQL queries, and managing
+                                MySQL databases.</p>
+                        </div>
+                        <div class="highlight-box">
+                            <i class="fa-solid fa-brain highlight-icon"></i>
+                            <h4>Machine Learning</h4>
+                            <p>Exploring predictive modeling, classification, regression, and data analytics workflows.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: EDUCATION -->
+        <section class="section education" id="education">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-meta">
+                                <span class="badge badge-primary">Highest Qualification</span>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2021 - 2024</span>
+                            </div>
+                            <h3 class="degree-title">Bachelor of Computer Applications (BCA)</h3>
+                            <h4 class="institution-name"><i class="fa-solid fa-university"></i> PES Institute of
+                                Advanced Management Studies, Shimoga (Kuvempu University)</h4>
+                            <p class="timeline-desc">
+                                Graduated with a comprehensive focus on core Computer Science subjects including
+                                Software Engineering, Data Structures & Algorithms, Object-Oriented Programming (OOP),
+                                Web Development, Database Management Systems (DBMS), and Computer Networks.
+                            </p>
+                            <div class="coursework">
+                                <h5>Key Academic Coursework:</h5>
+                                <div class="course-tags">
+                                    <span class="tag">Data Structures & Algorithms</span>
+                                    <span class="tag">Object Oriented Programming</span>
+                                    <span class="tag">Database Management (MySQL)</span>
+                                    <span class="tag">Web Programming</span>
+                                    <span class="tag">Software Engineering</span>
+                                    <span class="tag">Operating Systems</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: SKILLS -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Technical Proficiency</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-grid reveal">
+
+                    <!-- SKILL 1: Python -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon python-color"><i class="fa-brands fa-python"></i></div>
+                        <h3 class="skill-name">Python</h3>
+                        <p class="skill-desc">OOP, Data Analysis (Pandas, NumPy), Machine Learning</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Advanced</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 2: HTML -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon html-color"><i class="fa-brands fa-html5"></i></div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">Semantic Layouts, Web Accessibility (WCAG), SEO</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Advanced</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 3: CSS -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon css-color"><i class="fa-brands fa-css3-alt"></i></div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">Flexbox, CSS Grid, Responsive Design, Animations</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Advanced</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 4: JavaScript -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon js-color"><i class="fa-brands fa-js"></i></div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-desc">ES6+, DOM Manipulation, Event Handling, Async/Fetch API</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 5: PHP -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon php-color"><i class="fa-brands fa-php"></i></div>
+                        <h3 class="skill-name">PHP</h3>
+                        <p class="skill-desc">Server-side Scripting, Form Processing, Session Management</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 6: MySQL -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon mysql-color"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="skill-name">MySQL</h3>
+                        <p class="skill-desc">Relational DB Design, SQL Queries, Joins, Indexing</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 7: Machine Learning -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon ml-color"><i class="fa-solid fa-brain"></i></div>
+                        <h3 class="skill-name">Machine Learning</h3>
+                        <p class="skill-desc">Classification, Regression, Scikit-learn, Data Preprocessing</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 8: Git -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon git-color"><i class="fa-brands fa-git-alt"></i></div>
+                        <h3 class="skill-name">Git</h3>
+                        <p class="skill-desc">Version Control, Branching, Merging, Commit Workflows</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 9: GitHub -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon github-color"><i class="fa-brands fa-github"></i></div>
+                        <h3 class="skill-name">GitHub</h3>
+                        <p class="skill-desc">Code Hosting, Pull Requests, Issue Tracking, Pages</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <!-- SKILL 10: VS Code -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon vscode-color"><i class="fa-solid fa-code"></i></div>
+                        <h3 class="skill-name">VS Code</h3>
+                        <p class="skill-desc">Development Environment, Debugging, Extensions, Live Server</p>
+                        <div class="skill-level">
+                            <span class="level-badge">Advanced</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: PROJECTS -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Recent Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="projects-grid reveal">
+
+                    <!-- PROJECT 1: Loan Approval Prediction -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/loan-approval.jpg"
+                                alt="Loan Approval Prediction Machine Learning Dashboard" class="project-img">
+                            <div class="project-overlay">
+                                <span class="overlay-category">Machine Learning & Data Science</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Loan Approval Prediction</h3>
+                            <p class="project-description">
+                                An intelligent machine learning application developed to predict loan application
+                                approval status based on applicant financial profiles, credit score, income, and debt
+                                ratios. Evaluated multiple algorithms to select the optimal predictive accuracy.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Matplotlib</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Logistic Regression</span>
+                                <span class="tag">Decision Tree</span>
+                                <span class="tag">Random Forest</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- REPLACE WITH YOUR GITHUB REPO URL -->
+                                <a href="https://github.com/yourusername/loan-approval-prediction" target="_blank"
+                                    rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub Code
+                                </a>
+                                <!-- REPLACE WITH YOUR DEMO URL -->
+                                <a href="https://github.com/yourusername/loan-approval-prediction" target="_blank"
+                                    rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Project Details
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: Personal Portfolio Website -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/portfolio-preview.jpg" alt="Personal Portfolio Website Interface Preview"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <span class="overlay-category">Web Development & UX/UI</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-description">
+                                A modern, ultra-responsive personal portfolio website built with clean HTML5, CSS3, and
+                                vanilla JavaScript. Features a dark tech aesthetic, glassmorphism cards, smooth
+                                scrolling, active navigation highlighting, and client-side contact form validation.
+                            </p>
+
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Responsive Web Design</span>
+                                <span class="tag">UX/UI</span>
+                            </div>
+
+                            <div class="project-links">
+                                <!-- REPLACE WITH YOUR GITHUB REPO URL -->
+                                <a href="https://github.com/yourusername/personal-portfolio" target="_blank"
+                                    rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub Code
+                                </a>
+                                <a href="#home" class="btn btn-sm btn-primary">
+                                    <i class="fa-solid fa-eye"></i> Live Preview
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: RESUME -->
+        <section class="section resume" id="resume">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Curriculum Vitae</span>
+                    <h2 class="section-title">My Resume</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="resume-card glass-card reveal">
+                    <div class="resume-icon">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+                    <div class="resume-info">
+                        <h3>Pragna S N - Software Developer Resume</h3>
+                        <p>Complete record of technical skills, BCA academic coursework, projects, and certifications.
+                        </p>
+                        <p class="file-meta"><i class="fa-solid fa-paperclip"></i> File name:
+                            <code>assets/Pragna S N.pdf</code></p>
+                    </div>
+                    <div class="resume-action">
+                        <!-- RESUME DOWNLOAD BUTTON -->
+                        <a href="assets/Pragna S N.pdf" target="_blank" download="Pragna_S_N_Resume.pdf"
+                            class="btn btn-primary btn-lg">
+                            <i class="fa-solid fa-download"></i> Download Resume (PDF)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- HELPER NOTICE FOR USER -->
+                <div class="resume-instructions glass-card reveal">
+                    <h4><i class="fa-solid fa-circle-info"></i> How to replace with your own resume:</h4>
+                    <ol>
+                        <li>Export or save your resume as a <strong>PDF file</strong> named <code>resume.pdf</code>.
+                        </li>
+                        <li>Copy and place your <code>resume.pdf</code> file into the
+                            <strong><code>assets/</code></strong> folder of this project directory.</li>
+                        <li>The Download button above will automatically download your custom PDF file!</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: CONTACT -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-grid">
+
+                    <!-- CONTACT INFO CARDS -->
+                    <div class="contact-info reveal">
+                        <h3>Let's Connect & Collaborate</h3>
+                        <p class="contact-intro">
+                            I am actively seeking full-time Software Developer entry-level opportunities, internships,
+                            and collaborative software projects. Feel free to reach out via email, phone, or LinkedIn!
+                        </p>
+
+                        <div class="info-item glass-card">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Email Address</span>
+                                <a href="mailto:nanjundappaprema99@gmail.com" class="info-value">nanjundappaprema99@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item glass-card">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Phone Number</span>
+                                <a href="tel:+918618394960" class="info-value">+91 8618394960</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item glass-card">
+                            <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">LinkedIn Profile</span>
+                                <a href="https://www.linkedin.com/in/pragna-pragna13" target="_blank"
+                                    rel="noopener noreferrer" class="info-value">linkedin.com/in/pragna-pragna13</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item glass-card">
+                            <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">GitHub Repository</span>
+                                <a href="https://github.com/nanjundappaprema99-commits" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="info-value">github.com/nanjundappaprema99-commits</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT FORM -->
+                    <div class="contact-form-container glass-card reveal">
+                        <h3>Send Me A Message</h3>
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="contact-name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="contact-name" name="name" class="form-input"
+                                    placeholder="e.g. John Doe" required>
+                                <span class="error-message" id="name-error">Please enter your name.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="contact-email" name="email" class="form-input"
+                                    placeholder="e.g. john@example.com" required>
+                                <span class="error-message" id="email-error">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="contact-subject" name="subject" class="form-input"
+                                    placeholder="e.g. Software Developer Opportunity" required>
+                                <span class="error-message" id="subject-error">Please enter a subject.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Message <span class="required">*</span></label>
+                                <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5"
+                                    placeholder="Write your message here..." required></textarea>
+                                <span class="error-message" id="message-error">Please enter your message.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+
+                            <!-- SUCCESS NOTIFICATION TOAST -->
+                            <div class="form-status" id="form-status" role="alert"></div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-code">&lt;/&gt;</span> Pragna<span class="highlight"> S N</span>
+                </a>
+                <p>BCA Graduate | Software Developer Opportunities</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/pragna-pragna13" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/nanjundappaprema99-commits" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:nanjundappaprema99@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year">2026</span> Pragna S N. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
